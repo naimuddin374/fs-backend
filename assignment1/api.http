@@ -1,0 +1,9 @@
+GET http://localhost:4000/api
+
+####
+
+GET http://localhost:4000/api/v1/generator?start=10&end=30
+
+####
+
+GET http://localhost:4000/api/v1/profile?properties=firstname,lastname,email,avatar,age,address
